@@ -57,6 +57,18 @@ Orwell.createObservable(name, content);
 Orwell.getObservable(name);
 ```
 
+### Updating content on an observable
+
+This will call all your observer callbacks who are observing this observable.
+
+```javascript
+var myContent = {
+  something: 'something'
+};
+var observable = Orwell.getObservable(name);
+observable.setContent(myContent);
+```
+
 ### Deleting an observable
 ```javascript
 Orwell.deleteObservable(name);
