@@ -11,10 +11,10 @@ You can install this package either with `npm` or with `bower`.
 npm install ngOrwell
 ```
 
-Then add `lw.Orwell` as a dependency for your app:
+Then add `ngOrwell` as a dependency for your app:
 
 ```javascript
-angular.module('myApp', [require('lw.Orwell')]);
+angular.module('myApp', [require('ngOrwell')]);
 ```
 
 ### bower

@@ -1,12 +1,12 @@
-angular.module('lw.Orwell', [])
+angular.module('ngOrwell', [])
   /**
-   * ObserverService
+   * Orwell Observer Service
    *
-   * This module creates observable prototypes which allows the registration
+   * This service creates observable prototypes which allows the registration
    * of observers which are notified everytime the content in the observable
    * changes.
    **/
-  .service('ObservableService', function(){
+  .service('Orwell', function(){
     var observables = {};
 
     /**
