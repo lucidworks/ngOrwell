@@ -1,6 +1,6 @@
 {
   "name": "ng-orwell",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple observable for AngularJs 1",
   "main": "index.js",
   "scripts": {

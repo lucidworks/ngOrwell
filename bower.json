@@ -11,9 +11,6 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "dependencies": {
-    "angular"
-  },
   "description": "A simple observable for AngularJs 1",
   "moduleType": [],
   "keywords": [
