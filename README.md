@@ -11,7 +11,7 @@ You can install this package either with `npm` or with `bower`.
 npm install ng-orwell
 ```
 
-Then add `ngOrwell` as a dependency for your app:
+Then add `ng-orwell` as a dependency for your app:
 
 ```javascript
 angular.module('myApp', [require('ng-orwell')]);
@@ -20,16 +20,16 @@ angular.module('myApp', [require('ng-orwell')]);
 ### bower
 
 ```shell
-bower install ngOrwell
+bower install ng-orwell
 ```
 
 Add a `<script>` to your `index.html`:
 
 ```html
-<script src="/bower_components/ngOrwell/Orwell.js"></script>
+<script src="/bower_components/ng-orwell/Orwell.js"></script>
 ```
 
-Then add `lw.orwell` as a dependency for your app:
+Then add `ngOrwell` as a dependency for your app:
 
 ```javascript
 angular.module('myApp', ['ngOrwell']);
