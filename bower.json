@@ -1,0 +1,19 @@
+{
+  "name": "ngOrwell",
+  "main": "./Orwell.js",
+  "homepage": "https://github.com/LucidWorks/orwell",
+  "authors": [
+    "Joshua Ellinger <joshua.ellinger@lucidworks.com>"
+  ],
+  "dependencies": {
+    "angular"
+  },
+  "description": "A simple observable for AngularJs 1",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "observable",
+    "observer",
+    "service"
+  ]
+}
