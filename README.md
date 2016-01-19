@@ -77,6 +77,6 @@ var observer = observable.addObserver(function(content){
   // your callback code here.
 })
 $scope.$on('destroy', function(){
-  observer.removeObserver(observer);
+  observable.removeObserver(observer);
 });
 ```
