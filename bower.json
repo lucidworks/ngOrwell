@@ -1,7 +1,7 @@
 {
   "name": "ngOrwell",
   "main": "./Orwell.js",
-  "homepage": "https://github.com/LucidWorks/orwell",
+  "homepage": "https://github.com/LucidWorks/ngOrwell",
   "authors": [
     "Joshua Ellinger <joshua.ellinger@lucidworks.com>"
   ],
