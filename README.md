@@ -1,4 +1,4 @@
-# orwell
+# Orwell
 A simple angular observer for AngularJs 1
 
 ## Install
@@ -20,7 +20,7 @@ angular.module('myApp', [require('lw.Orwell')]);
 ### bower
 
 ```shell
-bower install angular-messages
+bower install ngOrwell
 ```
 
 Add a `<script>` to your `index.html`:
@@ -29,7 +29,7 @@ Add a `<script>` to your `index.html`:
 <script src="/bower_components/ng-orwell/Orwell.js"></script>
 ```
 
-Then add `ngMessages` as a dependency for your app:
+Then add `lw.orwell` as a dependency for your app:
 
 ```javascript
 angular.module('myApp', ['lw.orwell']);
