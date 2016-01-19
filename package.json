@@ -1,5 +1,5 @@
 {
-  "name": "ngOrwell",
+  "name": "ng-orwell",
   "version": "1.0.2",
   "description": "A simple observable for AngularJs 1",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://JoshEllinger@github.com/LucidWorks/ngOrwell.git"
+    "url": "git+https://git@github.com/LucidWorks/ngOrwell.git"
   },
   "keywords": [
     "angular",
