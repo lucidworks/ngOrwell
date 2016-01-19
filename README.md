@@ -63,7 +63,20 @@ Orwell.deleteObservable(name);
 ```
 
 ### Adding an observer to an observable
+```javascript
+var observable = Orwell.getObservable(name);
+var observer = observable.addObserver(function(content){
+  // your callback code here.
+})
+```
 
 ### Destroying an observer
-
-### Updating the observable
+```javascript
+var observable = Orwell.getObservable(name);
+var observer = observable.addObserver(function(content){
+  // your callback code here.
+})
+$scope.$on('destroy', function(){
+  observer.removeObserver(observer);
+});
+```
