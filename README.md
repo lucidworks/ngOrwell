@@ -11,7 +11,7 @@ You can install this package either with `npm` or with `bower`.
 npm install ngOrwell
 ```
 
-Then add `ngMessages` as a dependency for your app:
+Then add `lw.Orwell` as a dependency for your app:
 
 ```javascript
 angular.module('myApp', [require('lw.Orwell')]);
@@ -32,7 +32,7 @@ Add a `<script>` to your `index.html`:
 Then add `lw.orwell` as a dependency for your app:
 
 ```javascript
-angular.module('myApp', ['lw.orwell']);
+angular.module('myApp', ['lw.Orwell']);
 ```
 
 ## Documentation
