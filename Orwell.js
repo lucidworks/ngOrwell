@@ -33,7 +33,6 @@ angular.module('ngOrwell', [])
      * Update the content in the observable.
      *
      * @param  {[type]} content The content to observe changes to.
-     * @return {[type]}         [description]
      */
     Observable.prototype.setContent = function(content){
       this.content = content;
