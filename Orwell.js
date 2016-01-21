@@ -2,11 +2,11 @@ angular.module('ngOrwell', [])
   /**
    * Orwell Observer Service
    *
-   * This service creates observable prototypes which allows the registration
+   * This provider creates observable prototypes which allows the registration
    * of observers which are notified everytime the content in the observable
    * changes.
    **/
-  .service('Orwell', function(){
+  .provider('Orwell', function(){
     var observables = {};
 
     /**
@@ -33,7 +33,6 @@ angular.module('ngOrwell', [])
      * Update the content in the observable.
      *
      * @param  {[type]} content The content to observe changes to.
-     * @return {[type]}         [description]
      */
     Observable.prototype.setContent = function(content){
       this.content = content;
@@ -80,10 +79,18 @@ angular.module('ngOrwell', [])
      return text;
     };
 
-    return {
-      createObservable: createObservable,
-      getObservable: getObservable,
-      deleteObservable: deleteObservable
+    /////////////
+
+    this.createObservable = createObservable;
+    this.getObservable = getObservable;
+    this.deleteObservable = deleteObservable;
+
+    this.$get = function(){
+      return {
+        createObservable: createObservable,
+        getObservable: getObservable,
+        deleteObservable: deleteObservable
+      };
     };
 
     /**
