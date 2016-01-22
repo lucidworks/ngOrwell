@@ -42,11 +42,12 @@ angular.module('ngOrwell', [])
     /**
      * Notify observers the content of the observable has changed.
      */
-    Observable.prototype.notify = function(){
-      angular.forEach(this.observers, function(callback){
-        callback(this.content);
-      });
-    };
+     Observable.prototype.notify = function(){
+       var self = this;
+       angular.forEach(this.observers, function(callback){
+         callback(self.content);
+       });
+     };
 
     /**
      * Add a new observer callback.
