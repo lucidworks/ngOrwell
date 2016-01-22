@@ -1,2 +1,2 @@
 require('./Orwell');
-module.exports = 'lw.Orwell';
+module.exports = 'ngOrwell';
